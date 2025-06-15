@@ -12,9 +12,31 @@ h1 {
 }
 h2 {
     margin: 5%;
+    color: #93C747;
 }
 .emails {
     background-color: #93C747;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 5%;
+}
+ul {
+    list-style: none; 
+    padding-left: 0; 
+}
+li {
+    position: relative; 
+    padding-left: 25px;
+    color: black;
+}
+
+li::before {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 20px; 
+    height: 20px; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-image: url(../images/pineapple.png);
 }
