@@ -10,8 +10,15 @@ body {
 h1 {
     color: #93C747;
 }
+.top{
+    margin: 3%;
+}
 h2 {
-    margin: 5%;
+    padding: 4%;
+    color: #93C747;
+}
+h4 {
+    padding: 4%;
     color: #93C747;
 }
 .emails {
@@ -27,6 +34,7 @@ li {
     position: relative; 
     padding-left: 25px;
     color: black;
+    margin-top: 3%;
 }
 
 li::before {
@@ -39,4 +47,14 @@ li::before {
     background-size: contain; 
     background-repeat: no-repeat;
     background-image: url(../images/pineapple.png);
+}
+p{
+    color: black;
+    padding-left: 8%;
+}
+button{
+    color: #93C747 !important;
+}
+.emailList{
+    width: 350px;
 }

@@ -6,10 +6,10 @@ document.addEventListener('click', function(event) {
 
     navigator.clipboard.writeText(textToCopy)
       .then(() => {
-        alert('Text copied!');
+        alert('email copied');
       })
       .catch(err => {
-        console.error('Failed to copy text: ', err);
+        console.error('Failed to copy email ', err);
       });
   }
 });

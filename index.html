@@ -12,17 +12,18 @@
     
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid d-flex justify-content-around">
-    <a class="navbar-brand" href="#">
-      <img src="./images/logo.png" alt="Logo" width="400" height="100" class="d-inline-block align-text-center">
-    </a>
-    <h1 class="d-flex justify-content-center">Tuesday the 17th email campaign for Psych 4</h1>
-  </div>
-</nav>
+    <div class="row top">
+        <div class="col-12 col-md-6">
+            <img src="./images/logo.png" alt="Logo" width="300" height="75" class="d-inline-block align-text-center">
+        </div>
+        <div class="col-12 col-md-6">
+            <h1 class="d-flex justify-content-center">Tuesday the 17th email campaign for Psych 4</h1>
+        </div>
+        </div>
 <main>
-    <div>
-        <h2>Instructions: 
+    <div class="row">
+        <div class="col-12">
+            <h2>Instructions: 
             <ul>
                 <li>Choose an email from the list</li>
                 <li>Copy an email template </li>
@@ -32,34 +33,47 @@
             </ul>
             We wanna be respectful so please only send one email to each person
         </h2>
-        <h2>
+        <h4 class="emailList">
             Emails:
             <ul>
-                <li>Matt.Strauss@nbcuni.com - Matt Strauss - Chairman</li>
-                <li>Donna.Langley@nbcuni.com - Donna Langley - Chairman, NBCUniversal Entertainment & Studios</li>
-                <li>Pearlena.Igbokwe@nbcuni.com - Pearlena Igbokwe - Chairman, Television Studios, NBC Entertainment & Peacock Scripted</li>
-                <li>Liz.Jenkins@nbcuni.com - Liz Jenkins - Chief Business Officer, NBCUniversal Entertainment & Studios</li>
-                <li>Frances.Berwick@nbcuni.com - Frances Berwick - Chairman, Bravo & Peacock Unscripted</li>
-                <li>Jennifer.Storms@nbcuni.com - Jennifer Storms - Chief Marketing Officer, NBCUniversal Television & Streaming</li>
+                <li id="email1">matt.Strauss@nbcuni.com<button class="copy-button btn btn-light" data-target="email1"> <i class="bi bi-clipboard"></i></button></li>
+                <p>Matt Strauss - Chairman</p>
+                <li id="email2">donna.Langley@nbcuni.com<button class="copy-button btn btn-light" data-target="email2"> <i class="bi bi-clipboard"></i></button></li>
+                <p>Donna Langley - Chairman, NBCUniversal Entertainment & Studios</p>
+                <li id="email3">pearlena.Igbokwe@nbcuni.com<button class="copy-button btn btn-light" data-target="email3"> <i class="bi bi-clipboard"></i></button></li>
+                <p>Pearlena Igbokwe - Chairman, Television Studios, NBC Entertainment & Peacock Scripted</p>
+                <li id="email4">liz.Jenkins@nbcuni.com<button class="copy-button btn btn-light" data-target="email4"> <i class="bi bi-clipboard"></i></button></li>
+                <p>Liz Jenkins - Chief Business Officer, NBCUniversal Entertainment & Studios</p>
+                <li id="email5">frances.Berwick@nbcuni.com<button class="copy-button btn btn-light" data-target="email5"> <i class="bi bi-clipboard"></i></button></li>
+                <p>Frances Berwick - Chairman, Bravo & Peacock Unscripted</p>
+                <li id="email6">jennifer.Storms@nbcuni.com<button class="copy-button btn btn-light" data-target="email6"> <i class="bi bi-clipboard"></i></button></li>
+                <p>Jennifer Storms - Chief Marketing Officer, NBCUniversal Television & Streaming</p>
             </ul>
-        </h2>
+        </h4>
+        </div>
     </div>
+    <h2>Email templates:</h2>
     <div class="row emails">
         <div class="col-12 col-md-4">
             <div class="d-flex justify-content-end">
                 <button class="copy-button btn btn-light" data-target="text1"> <i class="bi bi-clipboard"></i></button>
             </div>
             <div>
-                <p id="text1">Hello ,
-My name is ______ and I am writing to encourage you to help provide the green light for the next Psych movie, Psych 4. 
+                <p id="text1">Hello ,<br>
 
-This fan base is an amazing community that has continued strong for almost 20 years. We have a regular podcast hosted by two main stars from the show that integrate writers, cast members and fans.  
+My name is ______ and I am writing to encourage you to help provide the green light for the next Psych movie, Psych 4. <br>
 
-We have 2 separate Psych fan events. One is a fan lead event that has hosted 2 events already with its 3rd planned for this August. Also, there have been 2 large Psych conventions that have had cast signing, panels, pictures, and interactive events. 
 
-We, as fans of the show, continue to back the cast and writers as they have created 3 amazing movies following the 8 seasons of the show. However, we also know there are more to the story to share. Also, we know that the script for Psych 4 has already been greenlighted by Peacock. 
+This fan base is an amazing community that has continued strong for almost 20 years. We have a regular podcast hosted by two main stars from the show that integrate writers, cast members and fans.  <br>
 
-Therefore, it is with this email, we ask for continued support when it comes to Psych 4. 
+
+We have 2 separate Psych fan events. One is a fan lead event that has hosted 2 events already with its 3rd planned for this August. Also, there have been 2 large Psych conventions that have had cast signing, panels, pictures, and interactive events. <br>
+
+
+We, as fans of the show, continue to back the cast and writers as they have created 3 amazing movies following the 8 seasons of the show. However, we also know there are more to the story to share. Also, we know that the script for Psych 4 has already been greenlighted by Peacock. <br>
+
+
+Therefore, it is with this email, we ask for continued support when it comes to Psych 4.<br>
 
 Thank you,</p>
             </div>
@@ -69,11 +83,16 @@ Thank you,</p>
                 <button class="copy-button btn btn-light" data-target="text2"> <i class="bi bi-clipboard"></i></button>
             </div>
             <div>
-                <p id="text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nam eos assumenda. Sequi eos, placeat assumenda nemo, magnam voluptatum beatae ipsa eveniet eligendi facilis fuga, odit commodi sapiente blanditiis aut.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia hic! Laborum quibusdam repellendus placeat ullam doloribus quasi quia consectetur animi numquam voluptatem ducimus nemo, maiores optio provident commodi excepturi!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam, inventore assumenda recusandae cum aliquam omnis temporibus placeat asperiores vel nihil sunt blanditiis eos, ipsa, facilis itaque ducimus sit exercitationem!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, et! Quasi sed consequuntur natus tempora cumque eos odio quisquam fugit quaerat. Labore quas ipsa minima cum laboriosam ab nemo ipsum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum unde ipsam tenetur sapiente error voluptatem sed ratione laborum, deserunt excepturi, magni tempore cupiditate quia delectus labore? Autem obcaecati soluta sapiente?
+                <p id="text2">Dear Peacock, <br>
+
+By this email, I wish to ask you to greenlight Psych 4. <br>
+
+Since 2021, the Psych-Os have been waiting for the next movie and to see the entire cast together on screen again.
+Psych-Os is a large fanbase, an international one, ready to participate in a lot of Psych related stuff: Podcast, convention, game night... a new movie would be a highlight for us. <br>
+We need to know the name of baby Guster. We need to see Karen’s husband. We want to see the whole gang back together. Psych makes us laugh and makes us happy, so we are asking you to bring it back. <br>
+
+We are counting on you.<br>
+Have a great day.<br>
                 </p>
             </div>
         </div>
@@ -82,11 +101,16 @@ Thank you,</p>
                 <button class="copy-button btn btn-light" data-target="text3"> <i class="bi bi-clipboard"></i></button>
             </div>
             <div>
-                <p id="text3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nam eos assumenda. Sequi eos, placeat assumenda nemo, magnam voluptatum beatae ipsa eveniet eligendi facilis fuga, odit commodi sapiente blanditiis aut.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quia hic! Laborum quibusdam repellendus placeat ullam doloribus quasi quia consectetur animi numquam voluptatem ducimus nemo, maiores optio provident commodi excepturi!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam, inventore assumenda recusandae cum aliquam omnis temporibus placeat asperiores vel nihil sunt blanditiis eos, ipsa, facilis itaque ducimus sit exercitationem!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, et! Quasi sed consequuntur natus tempora cumque eos odio quisquam fugit quaerat. Labore quas ipsa minima cum laboriosam ab nemo ipsum.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum unde ipsam tenetur sapiente error voluptatem sed ratione laborum, deserunt excepturi, magni tempore cupiditate quia delectus labore? Autem obcaecati soluta sapiente?</p>
+                <p id="text3">Hello,
+                    I'm _____ and I'm writing to ask you to please greenlight the Psych 4 movie. <br>
+                    Psych has a very committed fan base from all over the world and we want to be able to see our favorite characters back together.<br>
+
+                    Next year Psych will have its 20th anniversary and we would love to celebrate with a new movie.<br>
+                    We love and support everyone in the psych cast and crew and love anything Psych related like the podcast, conventions and game nights. <br>
+                    Getting a new movie would make many of suscribe to Peacock so we can see the new content.<br>
+                    Thank you so much for your time,<br>
+                    ______
+                </p>
             </div>
         </div>
     </div>
