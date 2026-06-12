@@ -17,6 +17,10 @@ h2 {
     padding: 4%;
     color: #93C747;
 }
+h3 {
+    padding: 4%;
+    color: #93C747;
+}
 h4 {
     padding: 4%;
     color: #93C747;
@@ -57,4 +61,7 @@ button{
 }
 .emailList{
     width: 350px;
+}
+.template-options {
+    padding-right: 8%;
 }
